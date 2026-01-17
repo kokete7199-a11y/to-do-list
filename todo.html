@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="todo-container">
+    <h2>My Tasks (<span id="count">0</span>)</h2>
+
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="Add new task">
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="js/todo.js"></script>
+</body>
+</html>
