@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo | About</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="welcome">
+<body>
 
-  <div class="welcome-box">
-    <h1>Welcome to ToDo App</h1>
-    <button onclick="goToTodo()">Get Started</button>
-  </div>
+<header class="navbar">
+  <div class="logo">To<span>Do</span></div>
+  <nav>
+    <a href="todo.html">Home</a>
+    <a class="active" href="index.html">About</a>
+  </nav>
+</header>
 
-  <script>
-    function goToTodo() {
-      window.location.href = "todo.html";
-    }
-  </script>
+<main class="welcome">
+  <h1>Welcome .</h1>
+  <p>This is my first challenge with Html&CSS.</p>
+  <img src="image.png" alt="welcome">
+</main>
+
+<footer>
+  This app created by <span>Aon2023</span>
+</footer>
 
 </body>
 </html>

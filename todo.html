@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Todo List</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="todo-container">
-    <h2>My Tasks (<span id="count">0</span>)</h2>
+<header class="navbar">
+  <div class="logo">To<span>Do</span></div>
+  <nav>
+    <a class="active" href="todo.html">Home</a>
+    <a href="index.html">About</a>
+  </nav>
+</header>
 
-    <div class="add-task">
-      <input type="text" id="taskInput" placeholder="Add new task">
-      <button onclick="addTask()">Add</button>
-    </div>
+<main class="todo">
+  <h1>Simple ToDo App</h1>
+  <p>This todo app for test design.</p>
 
-    <ul id="taskList"></ul>
+  <div class="input-box">
+    <input type="text" id="taskInput" placeholder="Write Text here . . .">
+    <button onclick="addTask()">+ Add New</button>
   </div>
 
-  <script src="todo.js"></script>
+  <ul id="taskList"></ul>
+
+  <div class="counter">
+    Total List : <span id="count">0</span>
+  </div>
+</main>
+
+<script src="todo.js"></script>
 </body>
 </html>
