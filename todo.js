@@ -23,7 +23,7 @@ function deleteTask(index){
 function showTasks(){
   taskList.innerHTML = "";
   count.textContent = tasks.length;
-
+  
   tasks.forEach((task,i)=>{
     taskList.innerHTML += `
       <li>
