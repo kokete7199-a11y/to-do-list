@@ -18,7 +18,7 @@ function deleteTask(index){
   tasks.splice(index,1);
   saveTasks();
   showTasks();
-}   
+}    
 
 function showTasks(){
   taskList.innerHTML = "";
