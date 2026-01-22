@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.post {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.post button {
+  margin-right: 5px;
+}
